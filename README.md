@@ -1,2 +1,2 @@
-# Spurs-Blog
- Solo Project - Tottenham Hotspur Blog
+# My-Learning-Tutorial
+ A Scrimba Learning Tutorial Project

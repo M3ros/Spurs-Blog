@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+nav img {
+    height: 3.12rem;
+    width: 3.12rem;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr;
+    font-size: .63rem;
+    text-align: center;
+    align-items: center;
+    border: solid red 1px;
+}
+
+nav h1 {
+    text-align: left;
+}
+
+nav h2 {
+    padding-right: 1.56rem;
+}
+
+.intro {
+
+    background-image: url("Images/Stadium.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 3000px rgba(0, 0, 0, 50%) inset;
+    width: auto;
+    height: 18.75rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    align-items: end;
+    padding-left: 1.56rem;
+    padding-bottom: 1.56rem;
+    padding-right: 1.56rem;
+    border: solid red 1px;
+
+}   
