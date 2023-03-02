@@ -14,6 +14,7 @@ nav {
     text-align: center;
     align-items: center;
     padding: .22rem 0 .22rem 0;
+
 }
 
 nav h1 {
@@ -29,26 +30,31 @@ nav a {
     color: black;
 }
 
-.intro {
+.logo {
+    display:flex;
+    width: 21.87rem;
+    height: 18.75rem;
+    margin: auto;
+}
 
-    background-image: url("Images/Stadium.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: 0 3000px rgba(0, 0, 0, 50%) inset;
-    width: auto;
-    height: 25.75rem;
+.quote {
+    text-align: center;
+    padding: 1.62rem;
+    font-style: italic;
+}
+
+.color {
+    background-color: #132257;
     color: white;
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 1fr;
-    grid-gap: 5px;
-    align-items: end;
-    padding-left: 1.56rem;
-    padding-bottom: 1.56rem;
-    padding-right: 1.56rem;
-
-}   
+    text-align: center;
+    padding: 1.62rem;
+    font-style: italic;
+}
+.section {
+    text-align: center;
+    padding: 1.62rem;
+    color: black;
+}
 .blog {
     display: grid;
     padding: 1.62rem;
