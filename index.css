@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+/* Nav Setup */
 nav img {
     height: 3.12rem;
     width: 3.12rem;
@@ -27,8 +28,11 @@ nav h2 {
 nav a {
     text-decoration: none;
     color: black;
+    font-size: 1rem;
 }
+/* Nav Setup */
 
+/* Intro Setup with picture */
 .intro {
 
     background-image: url("Images/Stadium.jpg");
@@ -49,6 +53,9 @@ nav a {
     padding-right: 1.56rem;
 
 }   
+/* Intro Setup with picture */
+
+/* Grid Blog  */
 .blog {
     display: grid;
     padding: 1.62rem;
@@ -73,9 +80,36 @@ nav a {
     padding-bottom: 1.25rem;
     color: grey;
 }
+/* Grid Blog  */
+
+
+/* View More */
+.more {
+    text-align: center;
+    padding: 1.62rem;
+    color: black;
+}
+/* View More */
+
+/* Footer */
 footer {
     background-color: #132257;
     color: white;
     text-align: center;
     padding: 1.62rem;
 }
+
+/* Footer */
+
+/* Media Query for scaling */
+@media (min-width: 450px) {
+    .blog {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1.25rem;
+        width: auto;
+        padding: 1.25rem 1.25rem .25rem 1.25rem;
+        margin: 0 1.25rem;
+    }
+
+}
+/* Media Query for scaling */

@@ -1,7 +1,7 @@
 * {
     margin: 0;
 }
-
+/* Nav Setup */
 nav img {
     height: 3.12rem;
     width: 3.12rem;
@@ -28,15 +28,20 @@ nav h2 {
 nav a {
     text-decoration: none;
     color: black;
+    font-size: 1rem;
 }
+/* Nav Setup */
 
+/* Logo img */
 .logo {
     display:flex;
     width: 21.87rem;
     height: 18.75rem;
     margin: auto;
 }
+/* Logo img */
 
+/* Quote and Color */
 .quote {
     text-align: center;
     padding: 1.62rem;
@@ -50,11 +55,9 @@ nav a {
     padding: 1.62rem;
     font-style: italic;
 }
-.section {
-    text-align: center;
-    padding: 1.62rem;
-    color: black;
-}
+/* Quote and Color */
+
+/* Grid Blog */
 .blog {
     display: grid;
     padding: 1.62rem;
@@ -79,9 +82,35 @@ nav a {
     padding-bottom: 1.25rem;
     color: grey;
 }
+/* Grid Blog */
+
+/* View More */
+.more {
+    text-align: center;
+    padding: 1.62rem;
+    color: black;
+}
+/* View More */
+
+/* Footer */
 footer {
     background-color: #132257;
     color: white;
     text-align: center;
+    height: 100%;
     padding: 1.62rem;
 }
+/* Footer */
+
+/* Media Query for scaling */
+@media (min-width: 400px) {
+    .blog {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1.25rem;
+        width: auto;
+        padding: 1.25rem 1.25rem .25rem 1.25rem;
+        margin: 0 1.25rem;
+    }
+
+}
+/* Media Query for scaling */
